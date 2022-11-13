@@ -1,0 +1,18 @@
+﻿double num = double.Parse(Console.ReadLine());
+string from = Console.ReadLine();
+string to = Console.ReadLine();
+if (from == "mm") num = num / 1000;
+if (from == "cm") num = num / 100;
+if (from == "km") num = num / 0.001;
+if (from == "in") num = num / 39.3700787;
+if (from == "mi") num = num / 0.000621371192;
+if (from == "ft") num = num / 3.2808399;
+if (from == "yd") num = num / 1.0936133;
+if (to == "mm") num = num * 1000;
+if (to == "cm") num = num * 100;
+if (to == "km") num = num * 0.001;
+if (to == "in") num = num * 39.3700787;
+if (to == "mi") num = num * 0.000621371192;
+if (to == "ft") num = num * 3.2808399;
+if (to == "yd") num = num * 1.0936133;
+Console.WriteLine(num + " "+to);
