@@ -5,7 +5,7 @@ double h = double.Parse(Console.ReadLine());
 double hp1 = p1 * h;
 double hp2 = p2 * h;
 double obshto = (p1 + p2) * h;
-if (obshto < v)
+if (obshto <= v)
 {
     
     double x = (obshto / v) * 100;
