@@ -399,4 +399,4 @@ FodyWeavers.xsd
 
 #
 *.sln
-*csproj.AssemblyReference.cache
+*.csproj.AssemblyReference.cache
