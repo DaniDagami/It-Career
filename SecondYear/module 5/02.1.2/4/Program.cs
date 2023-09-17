@@ -1,4 +1,4 @@
-﻿namespace _3 {
+﻿namespace _4 {
     internal class Program {
         static void Main(string[] args) {
             List<RationalNumber> rationalNums = new();
@@ -13,9 +13,6 @@
             }
 
             foreach (var num in rationalNums) {
-                int nod = num.BiggestDivider();
-                num.Numerator /= nod;
-                num.Denumerator /= nod;
                 num.Print();
                 if (rationalNums.IndexOf(num) != rationalNums.Count - 1) {
                     Console.Write("; ");
